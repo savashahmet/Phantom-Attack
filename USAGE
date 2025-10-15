@@ -1,0 +1,10 @@
+# Usage
+
+## Options
+-e, --essid       Base SSID string for Fake APs (required)  
+-i, --interface   Monitor-mode interface (e.g., wlan0mon) (required)  
+-c, --count       Number of Fake APs to spawn (required, integer)
+
+## Examples
+
+sudo python phantom_attack.py -e DEMO -i wlan0mon -c 10
